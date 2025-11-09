@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir.ttf) format(ttf);
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir.eot) format(eot);
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir.woff) format(woff);
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir.woff2) format(woff2);
+}
+
+* {
+  transition: all ease 1s;
+  font-family: Vazir;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.header {
+  background-color: #f0f0f0;
+}
+.navbar {
+  list-style-type: none;
+  display: inline-flex;
+}
