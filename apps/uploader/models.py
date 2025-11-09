@@ -11,6 +11,9 @@ class UploadFile(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
     file_name = models.CharField(verbose_name="نام فایل")
     file = models.FileField(upload_to=get_upload_path)
+    class Meta:
+        verbose_name = 'فایل'
+        verbose_name_plural = 'فایل ها'
     def save(self, *args, **kwargs):
         if not self.file_name:
             self.file_name = self.file.name
