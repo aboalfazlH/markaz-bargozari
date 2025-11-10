@@ -27,5 +27,7 @@
 }
 .navbar {
   list-style-type: none;
-  display: inline-flex;
+}
+.list-item {
+  color: black;
 }
